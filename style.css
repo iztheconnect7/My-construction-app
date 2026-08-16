@@ -1,0 +1,85 @@
+/* This resets weird default spacing browsers add */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #1a3c5e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f4f6f8;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #555;
+}
+
+.button {
+  display: inline-block;
+  background-color: #e07b39;
+  color: white;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.signup {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.signup h2 {
+  margin-bottom: 10px;
+}
+
+.signup button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 15px;
+  border: 2px solid #1a3c5e;
+  background-color: white;
+  color: #1a3c5e;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signup button:hover {
+  background-color: #1a3c5e;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a3c5e;
+  color: white;
+  font-size: 13px;
+}
