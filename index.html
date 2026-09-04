@@ -26,8 +26,11 @@
     <section id="signup" class="signup">
       <h2>Sign Up</h2>
       <p>Are you a homeowner or a contractor?</p>
-      <button>I'm a Homeowner</button>
-      <button>I'm a Contractor</button>
+      <button id="homeowner-btn">I'm a Homeowner</button>
+      <button id="contractor-btn">I'm a Contractor</button>
+
+      <!-- This message stays hidden until JavaScript shows it -->
+      <p id="response-message"></p>
     </section>
 
   </main>
@@ -36,6 +39,9 @@
   <footer>
     <p>&copy; 2026 BuildMatch. All rights reserved.</p>
   </footer>
+
+  <!-- Link to our JavaScript file, placed at the bottom so the page loads first -->
+  <script src="script.js"></script>
 
 </body>
 </html>
