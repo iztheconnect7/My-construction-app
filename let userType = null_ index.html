@@ -29,7 +29,23 @@
       <button id="homeowner-btn">I'm a Homeowner</button>
       <button id="contractor-btn">I'm a Contractor</button>
 
-      <!-- This message stays hidden until JavaScript shows it -->
+      <!-- This form starts hidden. JavaScript reveals it after a button is tapped -->
+      <form id="signup-form" class="hidden">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <!-- This field only shows for contractors, controlled by JavaScript -->
+        <div id="trade-field" class="hidden">
+          <label for="trade">Trade / Specialty</label>
+          <input type="text" id="trade" placeholder="e.g. Roofing, Electrical, Plumbing">
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+
       <p id="response-message"></p>
     </section>
 
