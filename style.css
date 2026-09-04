@@ -76,6 +76,41 @@ header p {
   color: white;
 }
 
+/* Anything with class="hidden" disappears from the page */
+.hidden {
+  display: none;
+}
+
+#signup-form {
+  max-width: 350px;
+  margin: 24px auto 0;
+  text-align: left;
+}
+
+#signup-form label {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#signup-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+#signup-form button[type="submit"] {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #e07b39;
+  color: white;
+  border: none;
+}
+
 footer {
   text-align: center;
   padding: 20px;
